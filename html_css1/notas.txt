@@ -1,0 +1,2 @@
+Cada tag é um elemento.
+w3schools.com é fonte oficial da documentação do html
