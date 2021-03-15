@@ -1,2 +1,10 @@
-Cada tag é um elemento.
-w3schools.com é fonte oficial da documentação do html
+- Cada tag é um elemento.
+- w3schools.com é fonte oficial da documentação do html
+- Tag meta é um exemplo de tag de auto-fechamento. Não precisa fechar a tag.
+- Comentário no html <!-- termina em --> ( Pode usar atalho ctrl+;)
+- Tag padrão xsemântica
+    Negrito padrão <b> Semântica <strong>
+    Itálico padrão <i> Semântica <em>
+    Deletado padrão <d> Semântica <del>
+    Sublinhado padrão <u> Semântica <ins>
+    
