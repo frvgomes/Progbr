@@ -7,4 +7,5 @@
     Itálico padrão <i> Semântica <em>
     Deletado padrão <d> Semântica <del>
     Sublinhado padrão <u> Semântica <ins>
-    
+- Tag img junto com atributo "alt" ajuda buscadores a reconhecer a imagem.
+
