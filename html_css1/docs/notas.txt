@@ -9,3 +9,8 @@
     Sublinhado padrão <u> Semântica <ins>
 - Tag img junto com atributo "alt" ajuda buscadores a reconhecer a imagem.
 
+- A diferença entre id e class é que a class pode ser usada em mais de um elemento. 
+o ID identifca um único elemento.
+- ID pode ser usado para fazer um link dentro da própria página. "href=#identificador".
+
+
