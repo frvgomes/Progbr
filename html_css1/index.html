@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <link rel="stylesheet" href="style.css">
-    <title>Estrutura Html Página 1</title>
-  </head>
-  <!-- Isso é um comentário -->
-  <body>
-    <a id="link" href="#sorvete_menta"> Sorvete </a>
 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" href="style.css">
+  <title>Estrutura Html Página 1</title>
+</head>
+<!-- Isso é um comentário -->
+
+<body>
+  <a id="link" href="./card.html"> Cartão de Visitas </a>
+  <hr>
+
+  <div>
     <h1 id="titulo">Texto h1</h1>
+    <hr>
     <h2>Sub-Título h2</h2>
     <p id="paragrafo">Paragrafo
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-      Doloribus et aliquam dolorum, laudantium dolores adipisci 
-      numquam non fugit suscipit vitae reprehenderit! Id reiciendis 
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Doloribus et aliquam dolorum, laudantium dolores adipisci
+      numquam non fugit suscipit vitae reprehenderit! Id reiciendis
       sunt aspernatur rem quo porro molestias nihil?</p>
-
+  <hr>
     <p class="texto1"> Texto em <strong>negrito</strong> </p>
     <p> Texto em <em>Itálico</em></p>
     <p class="texto1"> Texto com <mark>Marcação</mark></p>
@@ -25,43 +30,98 @@
     <p> Texto <ins>Sublinhado</ins></p>
     <p> Texto <sub>Subscrito</sub></p>
     <p> Texto <sup>Suerior</sup></p>
+  </div>
+  <hr>
 
-    <a href="sobre.html"> Desafio 1 - Curriculo</a>
-    <br>
-    <a href="https://foodbase.com.br/receitas/faca-facil-2-deliciosos-sorvetes-de-abacate">
-      <img id="sorvete_menta" src="img/sorvete2.jfif" alt="Sorvete Chocolate" height="200">
-    </a>
+  <a href="sobre.html"> Desafio 1 - Curriculo</a>
+  <br>
+  <a href="https://foodbase.com.br/receitas/faca-facil-2-deliciosos-sorvetes-de-abacate">
+    <img id="sorvete_menta" src="img/sorvete2.jfif" alt="Sorvete Chocolate" height="200">
+  </a>
+  <hr>
 
-    <h2>Lista Não Ordenda</h2> <!-- Lista não ordenada--> 
-    <ul>
-      <li>Item 1</li>
-      <li>Item 4</li>
-      <li>Item 3</li>
-      <li>Item 2</li>
-    </ul>
+  <h2>Lista Não Ordenda</h2> <!-- Lista não ordenada-->
+  <ul>
+    <li>Item 1</li>
+    <li>Item 4</li>
+    <li>Item 3</li>
+    <li>Item 2</li>
+  </ul>
 
-    <h2>Lista Ordenada</h2> <!-- Lista não ordenada--> 
-    <ol>
-      <li>Item 1</li>
-      <li>Item 4</li>
-      <li>Item 3</li>
-      <li>Item 2</li>
-    </ol>
+  <h2>Lista Ordenada</h2> <!-- Lista não ordenada-->
+  <ol>
+    <li>Item 1</li>
+    <li>Item 4</li>
+    <li>Item 3</li>
+    <li>Item 2</li>
+  </ol>
+  <hr>
 
-    <table>
-      <tr>
-        <th>Nome</th>
-        <th>E-mail</th>
-      </tr>
-      <tr>
-        <td>Francisco Rosemberg</td>
-        <td>frvgomes@gmail.com</td>
-      </tr>
-      <tr>
-        <td>Igor Oliveira</td>
-        <td>contato@programadorbr.com</td>
-      </tr>
-    </table>
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>E-mail</th>
+    </tr>
+    <tr>
+      <td>Francisco Rosemberg</td>
+      <td>frvgomes@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Igor Oliveira</td>
+      <td>contato@programadorbr.com</td>
+    </tr>
+  </table>
+  <br><br>
+  <hr>
 
-  </body>
+  <div id="cm"> </div>
+  <div id="mm"> </div>
+  <br><br>
+  <hr>
+
+  <div class="container">
+    Texto Container
+    <div class="inside">
+      Texto Inside
+    </div>
+  </div>
+  <br><br>
+  <hr>
+
+  <div class="borda_padrao">
+    <div id="base"></div>
+    <div id="container2">
+      <div id="conteudo">
+        Texto do conteudo
+      </div>
+
+    </div>
+  </div>
+  <br><br>
+  <hr>
+  <div class="container3 borda_padrao">
+    <div class="content">
+      Texto do conteudo
+    </div>
+  </div>
+  <br><br>
+  <hr>
+  <div class="square">
+    
+  </div>
+  <br><br>
+  <hr>
+  <div class="alt_text">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi nam id dolorem et itaque pariatur, voluptas est a cumque expedita reprehenderit quo odit excepturi quam deserunt necessitatibus ut reiciendis libero.    </p>
+  </div>
+  <a class="link_clear" href="">Link</a>
+  <br><br>
+  <hr>
+  <div class="alt_font">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi nam id dolorem et itaque pariatur, voluptas est a cumque expedita reprehenderit quo odit excepturi quam deserunt necessitatibus ut reiciendis libero.    </p>
+  </div>
+  <br><br>
+  <hr>
+</body>
+
 </html>

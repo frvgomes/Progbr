@@ -13,4 +13,5 @@
 o ID identifca um único elemento.
 - ID pode ser usado para fazer um link dentro da própria página. "href=#identificador".
 
+cor da futa aplicação - inter pj #072534(fundos) com #f5f6fa (textos)
 

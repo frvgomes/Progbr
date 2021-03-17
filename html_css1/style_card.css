@@ -1,0 +1,18 @@
+.card_model{
+  background-color: black;
+  background-image: url(./img/backgorund.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 200px;  
+  border-color: black;    
+  border-width: 10px;
+  padding: 5px;
+}
+p{
+  margin-left: 20px; 
+  
+}
+.lista{
+  
+}
