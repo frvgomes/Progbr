@@ -1,3 +1,6 @@
+body{
+  background-color: black;
+}
 .card_model{
   background-color: black;
   background-image: url(./img/backgorund.png);
@@ -5,14 +8,29 @@
   background-size: cover;
   width: 400px;
   height: 200px;  
-  border-color: black;    
-  border-width: 10px;
-  padding: 5px;
+  padding: 1px 20px;
+  margin: auto;
+  margin-top: 10%;
+  box-sizing: border-box;
 }
-p{
-  margin-left: 20px; 
-  
+
+.inst{
+  list-style-image: url(./img/Insta.png);
 }
-.lista{
-  
+.twit{
+  list-style-image: url(./img/Twitter.png);
 }
+.yout{
+  list-style-image: url(./img/Youtube.png);
+}
+
+a{
+  text-decoration: none;
+  color: blueviolet;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
