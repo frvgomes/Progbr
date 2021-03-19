@@ -11,69 +11,45 @@
       margin: 0;
       padding: 0;
     }
-
-    .header {
-      overflow: hidden;
-      margin: auto;
-      width: 80%;
-      background: darkcyan;
-      padding: 15px;
-      font-size: 18px;
-    }
-
-    .menu {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      float: right;
-    }
-
-    li {
-      float: left;
-      color: white;
-      margin-right: 15px;
-    }
-
-    .logo {
-      float: left;
-      color: white;
-    }
-
-    @media screen and (max-width: 400px) {
-      .logo{
-        float: none;
-        text-align: center;
-      }
-      .menu{
-        margin-top: 20px;
-        float: none;
-        text-align: center;
-      }
-      .li{
-        float: none;
-        background: red;
-        margin-bottom: 5px ;
-        padding: 10px;
-      }
-    }
   </style>
 
 </head>
 
 <body>
 
-  <div class="header">
-
-    <div class="logo">
-      Logo
-    </div>
-
-    <ul class="menu">
-      <li>Home</li>
-      <li>Cursos</li>
-      <li>Contato</li>
-    </ul>
-  </div>
+  <br>
+  <form action="" method="GET">
+    Nome <br>
+    <input type="text" name="edtNome"> <br><br>
+    E-Mail<br>
+    <input type="text" name="edtMail"> <br><br>
+    Senha<br>
+    <input type="password" name="edtPwd"><br><br>
+    Local<br>
+    <input type="checkbox" name="edtCheckBr" value="B"> Brasil <br>
+    <input type="checkbox" name="edtCheckAr" value="A"> Argentina <br><br>
+    Sexo<br>
+    <input type="radio" name="edtSexo" checked value="M"> Masculino <br>
+    <input type="radio" name="edtSexo" value="F"> Feminino <br><br>
+    <input type="reset" value="Cancelar">
+    <input type="submit">
+  </form>
+  <br>
+  <form action="" method="GET">
+    <select name="Uf" id="">
+      <option value="RJ">Rio de Janeiro</option>
+      <option value="SP" selected>Sao Paulo</option>
+    </select>
+  </form>
+  <br>
+  Formulario de contato <br>
+  <form action="" method="GET">
+    Assunto <br>
+    <input type="text" name="edtAssunto"> <br>
+    Mensagem<br>
+    <textarea name="edtMail"> </textarea> <br>
+    <input type="submit" value="Enviar">
+  </form>
 
 </body>
 
