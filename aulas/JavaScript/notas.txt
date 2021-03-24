@@ -1,0 +1,107 @@
+// comentário no js
+
+/* Tipos de Variáveis
+boolean
+Null
+Undefined
+Number
+String
+*/
+==================================
+Operadores
++ - * / 
+% modulo ( resto da divisão)
+++ incremento
+-- decremento
+Se usar o sinal antes (++a) incrementa quem está recebendo
+Se usar o sinal depois (a++) incrementa somente "a".
+==================================
+Operadores
+=
++= ( a = a + y)
+-=
+*=
+/=
+%=
+==================================
+Operadores Lógicos
+&& and
+|| or
+! Negação
+==================================
+Comparação
+== igual
+=== compara valor e tipo do dado
+! = não igual
+! == dados e tipo diferentes
+==================================
+Conversão de tipos de dados
+parseInt() converter str em int
+parseStr() converter int em str
+parseFloat
+==================================
+alert ("") - caixa com mensagem
+prompt("Idade") - Caixa com campo (tipo inputbox)
+==================================
+Bloco If
+if condição{
+  linha 1
+  linha 2
+} else {
+  linha 1
+  linha 2
+}
+
+if condição{
+  linha 1
+  linha 2
+} else if {
+  linha 1
+  linha 2
+} else {
+  linha 1
+  linha 2
+}
+==================================
+Operador Ternário
+idade > = 18 console.log("pode"): console.log("não pode")
+==================================
+switch/case
+
+switch (variavel/objeto) {
+  case "valor 1":
+    ação ....
+    break;
+  case "valor 2"
+    ação ....
+    break;
+  default
+    ação....
+    break;
+}
+==================================
+for / while
+
+for (contador; condição; contador++) {
+
+}
+
+while (condição) {
+
+}
+==================================
+Vetor
+para delcarar um array use
+var alunos = new array("a","b","c","d")
+ou 
+var nomes =[];
+==================================
+Declarar um objeto
+var seuobjeto {} //Diferença do array é que são {} a não []
+Para acessar a propriedade é que não se usa um indice(aluno[2]) e sim uma propriedade seuObjeto["nome"]
+Se uma prorpiedade for um array, você acessa assim seuObjeto.notas[2]
+ou seuObjeto["notas"][2]
+
+ou
+
+var aluno = new objeto ();
