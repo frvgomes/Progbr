@@ -83,11 +83,8 @@ switch (variavel/objeto) {
 for / while
 
 for (contador; condição; contador++) {
-
 }
-
 while (condição) {
-
 }
 ==================================
 Vetor
@@ -105,3 +102,17 @@ ou seuObjeto["notas"][2]
 ou
 
 var aluno = new objeto ();
+==================================
+métodos
+
+forEach - percorre um array
+==================================
+Datas
+
+var d = new Date()
+console.log(d) // pegamos aqui data completa
+==================================
+Variáveis
+Var é global
+Let e Const são locais
+==================================

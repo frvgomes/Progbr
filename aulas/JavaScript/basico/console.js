@@ -26,5 +26,9 @@ for (var index in nome){
             " | 2º Nota - " +nota2+
             " | Média   - " +m+
             " | " + status(m));
+
 }
+
+var d = new Date()
+console.log(d) // pegamos aqui data completa
 
