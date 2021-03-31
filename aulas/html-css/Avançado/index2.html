@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+  <style>
+    .container {
+      position: relative;
+      width: 640px;
+    }
+
+    .video {
+      width: 100%;
+    }
+
+    .controle {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+
+    .btn {
+      position: relative;
+      width: 60px;
+      padding: 10px;
+      top: 100%;
+      transform: translateY(-100%);
+      display: none;
+    }
+    .container:hover .btn{
+      display:initial;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <video id="video1" class="video" src="./2021-03-13_19-18-36.mp4">
+
+    </video>
+    <div class="controle">
+      <img class="btn" onclick="retroceder()" src="./arrow-left-circle.svg">
+      <img class="btn" onclick="avancar()" src="./arrow-right-circle.svg">
+      <img class="btn" onclick="play()" src="./play-circle.svg">
+      <img class="btn" onclick="stop()" src="./pause-circle.svg">
+      <img class="btn" onclick="diminuir_vel()" src="./minus-circle.svg">
+      <img class="btn" onclick="aumentar_vel()" src="./plus-circle.svg">
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

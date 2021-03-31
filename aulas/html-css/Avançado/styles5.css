@@ -1,0 +1,27 @@
+p::first-line{
+  color: red;
+}
+h1::first-letter{
+  color: red;
+}
+.lista{
+  list-style: none;
+}
+.lista::before{
+  content: "A ";
+  color: blue;
+}
+.lista_img{
+  list-style: none;
+}
+.lista_img::before{
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url(./play-circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
