@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pngquant-bin": "^6.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "pngquant-bin": "^3.1.1",
     "sharp": "^0.28.1"
   }
 }
